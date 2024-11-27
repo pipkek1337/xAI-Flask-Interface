@@ -1,5 +1,5 @@
 # xAI-Flask-Interface
-A simple Flask GUI to send requests to xAI and receive them.
+A simple Flask GUI to send requests to xAI and receive responses.
 
 # Instructions for .env
 
