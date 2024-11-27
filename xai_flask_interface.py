@@ -1,14 +1,17 @@
 from flask import Flask, render_template, request, redirect, url_for
 import requests
 import json
+from dotenv import load_dotenv
+import os
 
 app = Flask(__name__)
+load_dotenv()
 
 # Your API URL and Authorization Header
 url = "https://api.x.ai/v1/chat/completions"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer YOUR_API_KEY_HERE"
+    "Authorization": f"Bearer {os.getenv('API_KEY')}"
 }
 
 
