@@ -1,4 +1,4 @@
-# Requirements to run python script
+# Requirements to run the python script
 
 Flask==3.1.0 
 requests==2.32.3
