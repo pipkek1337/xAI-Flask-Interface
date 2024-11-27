@@ -1,0 +1,8 @@
+# Requirements to run python script
+
+Flask==3.1.0 
+requests==2.32.3
+python-dotenv==1.0.1 
+
+#To install, run:
+#pip install flask requests python-dotenv
